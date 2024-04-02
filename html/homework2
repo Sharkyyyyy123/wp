@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>註冊頁面</h2>
+
+<form action="/action_page.php">
+  <label for="name1">姓:</label><br>
+  <input type="text" id="name1" name="name1" placeholder="李"><br>
+  
+  <label for="name2">名:</label><br>
+  <input type="text" id="name2" name="name2" placeholder="木頭"><br>
+  
+  <label for="account">帳號名稱:</label><br>
+  <input type="text" id="account" name="account" placeholder="abcde123"><br>
+  
+  <label for="password">密碼:</label><br>
+  <input type="password" id="password" name="password"><br>
+  
+  <label for="mail">電子郵件信箱:</label><br>
+  <input type="email" id="mail" name="mail" placeholder="xxx@gmail.com"><br>
+  
+  <label for="account">電話:</label><br>
+  <input type="tel" id="tel" name="telephone" placeholder="0912345678"><br><br>
+  
+  <label for="gender">性別:</label><br>
+  <input type="radio" id="male" name="gender">
+  
+  <label for="male">男性</label><br>
+  <input type="radio" id="female" name="gender">
+  <label for="female">女性</label><br>
+  <input type="radio" id="others" name="gender">
+  <label for="others">其他</label><br><br>
+  
+  <label for="bd">生日:</label><br>
+  <input type="date" id="bd" name="birthday"><br><br>
+  
+  <label for="color">喜歡的顏色:</label>
+  <input type="color" id="color" name="fcolor"><br><br>
+  
+  <label for="bt">血型:</label>
+  <select name="blood_type" id="bt">
+  	<option>A</option>
+    <option>B</option>
+    <option>O</option>
+    <option>AB</option>
+  </select><br>
+ 
+  <br><label for="file">文件:</label>
+  <input type="file" id="file" name="file"><br><br>
+  
+  <label for="si">自我介紹:</label><br>
+  <textarea name="self_intro" id="si" rows="10" cols="40"></textarea><br>
+  
+  <br><input type="checkbox" id="sub" name="subscribe">
+  
+  <label for="sub">請同意以上條款!</label><br>
+  
+  <br><input type="submit" value="送出">
+  
+</form> 
+
+</body>
+</html>
